@@ -776,7 +776,6 @@ footer .creater-name{
     }
     .contact .right form{
         margin-right: 40px;
-        display: inline-block;
     }
     .outer{
         width: 500px;
@@ -795,20 +794,21 @@ footer .creater-name{
         text-shadow: 3px 2px rgb(230, 17, 17);
     }
 }
-@media(max-width: 550px){
-    .outer p{
-        font-size: 16px;
-        font-family: sans-serif;
-        margin-top: 10px;
-        color: white;
-    }
-    .outer{
-        padding-right: 80px;
-    }
-}
 @media(max-width: 600px){
     .outer{
-        width: 500px;
+        width: 400px;
+        height: 800px;
+    }
+}
+@media(max-width: 450px){
+    .outer{
+        width: 300px;
+        height: 800px;
+    }
+}
+@media(max-width: 300px){
+    .outer{
+        width: 250px;
         height: 800px;
     }
 }
